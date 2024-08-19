@@ -27,3 +27,6 @@ This code controls Tello manually, using the following controls:
 
 ### How it works
 This code is a type of "onboard control", and the drone is controlled manually, but the Depth Anythig algorithm detects whether the area within the rectangle drawn in the image is free or closed. If it is closed, it divides the rectangle into four parts and detects which one is freest from obstacles. When performing this loop, a message like "free path to the left..." or "free path to the top" appears in the prompt.
+
+### Future work
+Implement a pre-defined route system so that the drone can avoid the obstacle and return to its original path. It is also worth studying reinforcement learning and working with simulations.
